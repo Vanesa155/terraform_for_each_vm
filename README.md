@@ -22,7 +22,18 @@ To run this setup, follow these steps:
    ```bash
    az account show
    ```
+### 4. Virtual Machine Version Update
+- The virtual machine version has been updated from **16** to **22** due to compatibility issues with Python in later deployment steps.
+- Specifically, the SKU was changed from:
 
+  ```hcl
+  sku = "16.04-LTS"
+  ```
+  to:
+  ```hcl
+  sku = "22_04-lts-gen2"
+  ```
+  to ensure compatibility with the required dependencies.
 
 ## <b> Autora </b>
 
