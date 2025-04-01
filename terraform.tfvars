@@ -1,5 +1,5 @@
-region="East US"
-user = "adminuser"
-password = "#########"
+region      = "East US"
+user        = "glori"
+password    = "@@@@@"
 prefix_name = "devops"
-servers = [ "jenkins", "nginx" ]
+servers     = ["jenkins", "nginx"]
