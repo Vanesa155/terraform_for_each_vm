@@ -1,5 +1,5 @@
 region      = "East US"
 user        = "glori"
-password    = "Passw0rd."
+password    = "@@@@@"
 prefix_name = "devops"
 servers     = ["jenkins", "nginx"]
